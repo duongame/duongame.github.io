@@ -180,10 +180,11 @@
     </ul>
 
     <h2>3. Camera and Gallery Access</h2>
-    <p>The Apps request access to your device's camera and photo gallery solely to capture images containing Chinese or Japanese characters for OCR (Optical Character Recognition) processing. Images are processed in real time and are not stored on our servers.</p>
+    <p>The Apps request access to your device's camera and photo gallery solely to capture images containing Chinese or Japanese characters for OCR (Optical Character Recognition) processing.</p>
+    <p>OCR is performed in two stages. First, an on-device recognition (Apple Vision on iOS, Google ML Kit on Android) produces an immediate preliminary result, and the image is not transmitted at this stage. To confirm an accurate final result, the image and recognized text are then sent to Google's servers via the Gemini API. Images are processed in real time and are not stored on our servers.</p>
 
     <h2>4. Third-Party Services</h2>
-    <p>The Apps use the following third-party services. Images and extracted text may be transmitted to Google's servers for processing via the Gemini API.</p>
+    <p>The Apps use the following third-party services. On-device recognition (Apple Vision / Google ML Kit) runs locally and does not transmit your data. When a result is confirmed or translated, the image and extracted text may be transmitted to Google's servers via the Gemini API.</p>
     <table>
       <thead>
         <tr><th>Service</th><th>Purpose</th><th>Privacy Policy</th></tr>
@@ -225,10 +226,11 @@
     </ul>
 
     <h2>3. 카메라 및 갤러리 접근</h2>
-    <p>본 앱은 OCR(광학 문자 인식) 처리를 위해 중국어 또는 일본어 문자가 포함된 이미지를 촬영하는 목적으로만 카메라 및 갤러리 접근 권한을 요청합니다. 이미지는 실시간으로 처리되며 서버에 저장되지 않습니다.</p>
+    <p>본 앱은 OCR(광학 문자 인식) 처리를 위해 중국어 또는 일본어 문자가 포함된 이미지를 촬영하는 목적으로만 카메라 및 갤러리 접근 권한을 요청합니다.</p>
+    <p>OCR은 2단계로 처리됩니다. 먼저 기기 내 인식(iOS: Apple Vision, Android: Google ML Kit)으로 즉각적인 임시 결과를 표시하며, 이 단계에서는 이미지가 전송되지 않습니다. 정확한 최종 결과를 확정하기 위해 이미지 및 인식된 텍스트는 Gemini API를 통해 Google 서버로 전송됩니다. 이미지는 실시간으로 처리되며 서버에 저장되지 않습니다.</p>
 
     <h2>4. 제3자 서비스</h2>
-    <p>본 앱은 다음 제3자 서비스를 사용합니다. 이미지 및 추출된 텍스트는 Gemini API를 통해 Google 서버로 전송되어 처리될 수 있습니다.</p>
+    <p>본 앱은 다음 제3자 서비스를 사용합니다. 기기 내 인식(Apple Vision / Google ML Kit)은 로컬에서 실행되며 데이터를 전송하지 않습니다. 결과를 확정하거나 번역할 때 이미지 및 추출된 텍스트가 Gemini API를 통해 Google 서버로 전송될 수 있습니다.</p>
     <table>
       <thead>
         <tr><th>서비스</th><th>목적</th><th>개인정보 처리방침</th></tr>
@@ -270,10 +272,11 @@
     </ul>
 
     <h2>3. 相机与相册访问</h2>
-    <p>本应用仅为拍摄包含中文或日文文字的图像以进行 OCR（光学字符识别）处理而请求访问您设备的相机和相册。图像将实时处理，不会存储在我们的服务器上。</p>
+    <p>本应用仅为拍摄包含中文或日文文字的图像以进行 OCR（光学字符识别）处理而请求访问您设备的相机和相册。</p>
+    <p>OCR 分两个阶段处理。首先通过设备端识别（iOS：Apple Vision，Android：Google ML Kit）显示即时的初步结果，此阶段不会传输图像。为确认准确的最终结果，图像及识别出的文本会通过 Gemini API 传输至 Google 服务器。图像将实时处理，不会存储在我们的服务器上。</p>
 
     <h2>4. 第三方服务</h2>
-    <p>本应用使用以下第三方服务。图像及提取的文本可能通过 Gemini API 传输至 Google 服务器进行处理。</p>
+    <p>本应用使用以下第三方服务。设备端识别（Apple Vision / Google ML Kit）在本地运行，不会传输您的数据。在确认结果或进行翻译时，图像及提取的文本可能通过 Gemini API 传输至 Google 服务器。</p>
     <table>
       <thead>
         <tr><th>服务</th><th>用途</th><th>隐私政策</th></tr>
@@ -315,10 +318,11 @@
     </ul>
 
     <h2>3. 相機與相簿存取</h2>
-    <p>本應用程式僅為拍攝包含中文或日文文字的影像以進行 OCR（光學字元辨識）處理而請求存取您裝置的相機與相簿。影像將即時處理，不會儲存於我們的伺服器上。</p>
+    <p>本應用程式僅為拍攝包含中文或日文文字的影像以進行 OCR（光學字元辨識）處理而請求存取您裝置的相機與相簿。</p>
+    <p>OCR 分為兩個階段處理。首先透過裝置端辨識（iOS：Apple Vision，Android：Google ML Kit）顯示即時的初步結果，此階段不會傳輸影像。為確認準確的最終結果，影像及辨識出的文字會透過 Gemini API 傳輸至 Google 伺服器。影像將即時處理，不會儲存於我們的伺服器上。</p>
 
     <h2>4. 第三方服務</h2>
-    <p>本應用程式使用以下第三方服務。影像及擷取的文字可能透過 Gemini API 傳輸至 Google 伺服器進行處理。</p>
+    <p>本應用程式使用以下第三方服務。裝置端辨識（Apple Vision / Google ML Kit）於本機執行，不會傳輸您的資料。在確認結果或進行翻譯時，影像及擷取的文字可能透過 Gemini API 傳輸至 Google 伺服器。</p>
     <table>
       <thead>
         <tr><th>服務</th><th>用途</th><th>隱私權政策</th></tr>
@@ -360,10 +364,11 @@
     </ul>
 
     <h2>3. カメラおよびギャラリーへのアクセス</h2>
-    <p>本アプリは、中国語または日本語の文字を含む画像を撮影し OCR（光学文字認識）処理を行う目的のみで、デバイスのカメラおよびギャラリーへのアクセスを要求します。画像はリアルタイムで処理され、当社のサーバーには保存されません。</p>
+    <p>本アプリは、中国語または日本語の文字を含む画像を撮影し OCR（光学文字認識）処理を行う目的のみで、デバイスのカメラおよびギャラリーへのアクセスを要求します。</p>
+    <p>OCR は2段階で処理されます。まずデバイス上の認識（iOS：Apple Vision、Android：Google ML Kit）により即時の暫定結果を表示し、この段階では画像は送信されません。正確な最終結果を確定するため、画像および認識されたテキストは Gemini API を通じて Google のサーバーに送信されます。画像はリアルタイムで処理され、当社のサーバーには保存されません。</p>
 
     <h2>4. 第三者サービス</h2>
-    <p>本アプリは以下の第三者サービスを使用します。画像および抽出されたテキストは、Gemini API を通じて Google のサーバーに送信され処理される場合があります。</p>
+    <p>本アプリは以下の第三者サービスを使用します。デバイス上の認識（Apple Vision / Google ML Kit）はローカルで実行され、データを送信しません。結果の確定または翻訳の際に、画像および抽出されたテキストが Gemini API を通じて Google のサーバーに送信される場合があります。</p>
     <table>
       <thead>
         <tr><th>サービス</th><th>目的</th><th>プライバシーポリシー</th></tr>
