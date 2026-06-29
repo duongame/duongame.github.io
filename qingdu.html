@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Privacy Policy | 청독 (Qingdu)</title>
+  <title>Privacy Policy | Qingdu · Seidoku</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -37,6 +37,7 @@
     .lang-toggle {
       display: flex;
       justify-content: center;
+      flex-wrap: wrap;
       gap: 0.5rem;
       margin-top: 1rem;
     }
@@ -150,11 +151,14 @@
 <body>
 
 <header>
-  <h1>청독 · Qingdu</h1>
-  <p>Privacy Policy · 개인정보 처리방침</p>
+  <h1>Qingdu · Seidoku</h1>
+  <p>Privacy Policy · 개인정보 처리방침 · 隐私政策 · 隱私權政策 · プライバシーポリシー</p>
   <div class="lang-toggle">
     <button class="active" onclick="setLang('en')">English</button>
     <button onclick="setLang('ko')">한국어</button>
+    <button onclick="setLang('cn')">简体中文</button>
+    <button onclick="setLang('tw')">繁體中文</button>
+    <button onclick="setLang('jp')">日本語</button>
   </div>
 </header>
 
@@ -162,73 +166,55 @@
 
   <!-- English -->
   <div class="lang-section active" id="section-en">
-
-    <p style="color:#888; font-size:0.875rem; margin-bottom:2rem;">Effective Date: May 27, 2026</p>
+    <p style="color:#888; font-size:0.875rem; margin-bottom:2rem;">Effective Date: June 30, 2026</p>
 
     <h2>1. Overview</h2>
-    <p>Qingdu ("the App") is a Chinese character recognition and pronunciation app for Korean speakers learning Chinese or Japanese. This Privacy Policy explains how we handle information when you use the App.</p>
+    <p>This Privacy Policy applies to Qingdu (청독), a Chinese character reader, and Seidoku, a Japanese reader (together, "the Apps"), developed by Qingdu Studio. The Apps recognize text through your camera and help you read it with pronunciation and translation. This policy explains how information is handled when you use the Apps.</p>
 
     <h2>2. Information We Do Not Collect</h2>
     <ul>
       <li>We do not require account creation or login</li>
       <li>We do not collect your name, email address, or any personal identifiers</li>
-      <li>We do not store images or photos you take within the App</li>
+      <li>We do not store images or photos you take within the Apps</li>
       <li>We do not sell or share your data with third parties for advertising purposes</li>
     </ul>
 
     <h2>3. Camera and Gallery Access</h2>
-    <p>The App requests access to your device's camera and photo gallery solely to capture images containing Chinese characters for OCR (Optical Character Recognition) processing. Images are processed in real time and are not stored on our servers.</p>
+    <p>The Apps request access to your device's camera and photo gallery solely to capture images containing Chinese or Japanese characters for OCR (Optical Character Recognition) processing. Images are processed in real time and are not stored on our servers.</p>
 
     <h2>4. Third-Party Services</h2>
-    <p>The App uses the following third-party services. Images and extracted text may be transmitted to Google's servers for processing via the Gemini API.</p>
+    <p>The Apps use the following third-party services. Images and extracted text may be transmitted to Google's servers for processing via the Gemini API.</p>
     <table>
       <thead>
-        <tr>
-          <th>Service</th>
-          <th>Purpose</th>
-          <th>Privacy Policy</th>
-        </tr>
+        <tr><th>Service</th><th>Purpose</th><th>Privacy Policy</th></tr>
       </thead>
       <tbody>
-        <tr>
-          <td>Google Firebase AI Logic (Gemini API)</td>
-          <td>OCR and text extraction</td>
-          <td><a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></td>
-        </tr>
-        <tr>
-          <td>Firebase App Check</td>
-          <td>API abuse prevention</td>
-          <td><a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></td>
-        </tr>
-        <tr>
-          <td>Firebase Remote Config</td>
-          <td>App configuration</td>
-          <td><a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></td>
-        </tr>
+        <tr><td>Google Firebase AI Logic (Gemini API)</td><td>OCR and text extraction</td><td><a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></td></tr>
+        <tr><td>Google ML Kit Translate</td><td>On-device text translation</td><td><a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></td></tr>
+        <tr><td>Firebase App Check</td><td>API abuse prevention</td><td><a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></td></tr>
+        <tr><td>Firebase Remote Config</td><td>App configuration</td><td><a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></td></tr>
       </tbody>
     </table>
 
     <h2>5. Data Retention</h2>
-    <p>The App does not retain any user data. All processing is done in real time and results are displayed only within the current session.</p>
+    <p>The Apps do not retain any user data. All processing is done in real time and results are displayed only within the current session.</p>
 
     <h2>6. Children's Privacy</h2>
-    <p>The App is suitable for all ages. We do not knowingly collect any personal information from children under the age of 13.</p>
+    <p>The Apps are suitable for all ages. We do not knowingly collect any personal information from children under the age of 13.</p>
 
     <h2>7. Changes to This Policy</h2>
     <p>We may update this Privacy Policy from time to time. Any changes will be reflected by updating the effective date at the top of this page.</p>
 
     <h2>8. Contact</h2>
-    <p>If you have any questions about this Privacy Policy, please contact us at: <strong>qingdu.app@gmail.com</strong></p>
-
+    <p>If you have any questions about this Privacy Policy, please contact us at: <strong>qingdu.studio@gmail.com</strong></p>
   </div>
 
   <!-- Korean -->
   <div class="lang-section" id="section-ko">
-
-    <p style="color:#888; font-size:0.875rem; margin-bottom:2rem;">시행일: 2026년 5월 27일</p>
+    <p style="color:#888; font-size:0.875rem; margin-bottom:2rem;">시행일: 2026년 6월 30일</p>
 
     <h2>1. 개요</h2>
-    <p>청독(Qingdu)은 중국어 또는 일본어를 학습하는 한국어 사용자를 위한 한자 인식 및 발음 앱입니다. 본 개인정보 처리방침은 앱 사용 시 정보를 처리하는 방식을 설명합니다.</p>
+    <p>본 개인정보 처리방침은 중국어 한자 리더 청독(Qingdu)과 일본어 리더 Seidoku(이하 "본 앱")에 적용되며, Qingdu Studio가 개발했습니다. 본 앱은 카메라로 문자를 인식하고 발음과 번역으로 읽기를 돕습니다. 본 방침은 앱 사용 시 정보를 처리하는 방식을 설명합니다.</p>
 
     <h2>2. 수집하지 않는 정보</h2>
     <ul>
@@ -239,44 +225,24 @@
     </ul>
 
     <h2>3. 카메라 및 갤러리 접근</h2>
-    <p>앱은 OCR(광학 문자 인식) 처리를 위해 한자가 포함된 이미지를 촬영하는 목적으로만 카메라 및 갤러리 접근 권한을 요청합니다. 이미지는 실시간으로 처리되며 서버에 저장되지 않습니다.</p>
+    <p>본 앱은 OCR(광학 문자 인식) 처리를 위해 중국어 또는 일본어 문자가 포함된 이미지를 촬영하는 목적으로만 카메라 및 갤러리 접근 권한을 요청합니다. 이미지는 실시간으로 처리되며 서버에 저장되지 않습니다.</p>
 
     <h2>4. 제3자 서비스</h2>
-    <p>앱은 다음 제3자 서비스를 사용합니다. 이미지 및 추출된 텍스트는 Gemini API를 통해 Google 서버로 전송되어 처리될 수 있습니다.</p>
+    <p>본 앱은 다음 제3자 서비스를 사용합니다. 이미지 및 추출된 텍스트는 Gemini API를 통해 Google 서버로 전송되어 처리될 수 있습니다.</p>
     <table>
       <thead>
-        <tr>
-          <th>서비스</th>
-          <th>목적</th>
-          <th>개인정보 처리방침</th>
-        </tr>
+        <tr><th>서비스</th><th>목적</th><th>개인정보 처리방침</th></tr>
       </thead>
       <tbody>
-        <tr>
-          <td>Google Firebase AI Logic (Gemini API)</td>
-          <td>OCR 및 텍스트 추출</td>
-          <td><a href="https://policies.google.com/privacy" target="_blank">Google 개인정보 처리방침</a></td>
-        </tr>
-        <tr>
-          <td>Google ML Kit Translate</td>
-          <td>온디바이스 텍스트 번역</td>
-          <td><a href="https://policies.google.com/privacy" target="_blank">Google 개인정보 처리방침</a></td>
-        </tr>
-        <tr>
-          <td>Firebase App Check</td>
-          <td>API 남용 방지</td>
-          <td><a href="https://policies.google.com/privacy" target="_blank">Google 개인정보 처리방침</a></td>
-        </tr>
-        <tr>
-          <td>Firebase Remote Config</td>
-          <td>앱 설정 관리</td>
-          <td><a href="https://policies.google.com/privacy" target="_blank">Google 개인정보 처리방침</a></td>
-        </tr>
+        <tr><td>Google Firebase AI Logic (Gemini API)</td><td>OCR 및 텍스트 추출</td><td><a href="https://policies.google.com/privacy" target="_blank">Google 개인정보 처리방침</a></td></tr>
+        <tr><td>Google ML Kit Translate</td><td>온디바이스 텍스트 번역</td><td><a href="https://policies.google.com/privacy" target="_blank">Google 개인정보 처리방침</a></td></tr>
+        <tr><td>Firebase App Check</td><td>API 남용 방지</td><td><a href="https://policies.google.com/privacy" target="_blank">Google 개인정보 처리방침</a></td></tr>
+        <tr><td>Firebase Remote Config</td><td>앱 설정 관리</td><td><a href="https://policies.google.com/privacy" target="_blank">Google 개인정보 처리방침</a></td></tr>
       </tbody>
     </table>
 
     <h2>5. 데이터 보존</h2>
-    <p>앱은 사용자 데이터를 보존하지 않습니다. 모든 처리는 실시간으로 이루어지며 결과는 현재 세션 내에서만 표시됩니다.</p>
+    <p>본 앱은 사용자 데이터를 보존하지 않습니다. 모든 처리는 실시간으로 이루어지며 결과는 현재 세션 내에서만 표시됩니다.</p>
 
     <h2>6. 아동 개인정보 보호</h2>
     <p>본 앱은 전체 연령을 대상으로 합니다. 만 14세 미만 아동의 개인정보를 의도적으로 수집하지 않습니다.</p>
@@ -286,13 +252,147 @@
 
     <h2>8. 문의</h2>
     <p>개인정보 처리방침에 관한 문의는 아래 이메일로 연락해 주세요: <strong>qingdu.studio@gmail.com</strong></p>
+  </div>
 
+  <!-- Simplified Chinese -->
+  <div class="lang-section" id="section-cn">
+    <p style="color:#888; font-size:0.875rem; margin-bottom:2rem;">生效日期：2026年6月30日</p>
+
+    <h2>1. 概述</h2>
+    <p>本隐私政策适用于中文汉字阅读器 Qingdu（청독）和日语阅读器 Seidoku（以下统称"本应用"），由 Qingdu Studio 开发。本应用通过相机识别文字，并通过发音和翻译帮助您阅读。本政策说明在您使用本应用时如何处理信息。</p>
+
+    <h2>2. 我们不收集的信息</h2>
+    <ul>
+      <li>无需创建账户或登录</li>
+      <li>不收集您的姓名、电子邮箱或任何个人身份信息</li>
+      <li>不存储您在应用内拍摄的图像或照片</li>
+      <li>不会为广告目的向第三方出售或共享您的数据</li>
+    </ul>
+
+    <h2>3. 相机与相册访问</h2>
+    <p>本应用仅为拍摄包含中文或日文文字的图像以进行 OCR（光学字符识别）处理而请求访问您设备的相机和相册。图像将实时处理，不会存储在我们的服务器上。</p>
+
+    <h2>4. 第三方服务</h2>
+    <p>本应用使用以下第三方服务。图像及提取的文本可能通过 Gemini API 传输至 Google 服务器进行处理。</p>
+    <table>
+      <thead>
+        <tr><th>服务</th><th>用途</th><th>隐私政策</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Google Firebase AI Logic (Gemini API)</td><td>OCR 与文本提取</td><td><a href="https://policies.google.com/privacy" target="_blank">Google 隐私政策</a></td></tr>
+        <tr><td>Google ML Kit Translate</td><td>设备端文本翻译</td><td><a href="https://policies.google.com/privacy" target="_blank">Google 隐私政策</a></td></tr>
+        <tr><td>Firebase App Check</td><td>防止 API 滥用</td><td><a href="https://policies.google.com/privacy" target="_blank">Google 隐私政策</a></td></tr>
+        <tr><td>Firebase Remote Config</td><td>应用配置管理</td><td><a href="https://policies.google.com/privacy" target="_blank">Google 隐私政策</a></td></tr>
+      </tbody>
+    </table>
+
+    <h2>5. 数据保留</h2>
+    <p>本应用不保留任何用户数据。所有处理均实时完成，结果仅在当前会话中显示。</p>
+
+    <h2>6. 儿童隐私</h2>
+    <p>本应用适合所有年龄段使用。我们不会有意收集 14 周岁以下儿童的个人信息。</p>
+
+    <h2>7. 政策变更</h2>
+    <p>我们可能会不时更新本隐私政策。任何变更将通过更新本页顶部的生效日期予以反映。</p>
+
+    <h2>8. 联系方式</h2>
+    <p>如对本隐私政策有任何疑问，请通过以下邮箱联系我们：<strong>qingdu.studio@gmail.com</strong></p>
+  </div>
+
+  <!-- Traditional Chinese -->
+  <div class="lang-section" id="section-tw">
+    <p style="color:#888; font-size:0.875rem; margin-bottom:2rem;">生效日期：2026年6月30日</p>
+
+    <h2>1. 概述</h2>
+    <p>本隱私權政策適用於中文漢字閱讀器 Qingdu（청독）與日語閱讀器 Seidoku（以下合稱「本應用程式」），由 Qingdu Studio 開發。本應用程式透過相機辨識文字，並透過發音與翻譯協助您閱讀。本政策說明您使用本應用程式時如何處理資訊。</p>
+
+    <h2>2. 我們不收集的資訊</h2>
+    <ul>
+      <li>無需建立帳號或登入</li>
+      <li>不收集您的姓名、電子郵件或任何個人識別資訊</li>
+      <li>不儲存您在應用程式內拍攝的影像或相片</li>
+      <li>不會為廣告目的向第三方出售或分享您的資料</li>
+    </ul>
+
+    <h2>3. 相機與相簿存取</h2>
+    <p>本應用程式僅為拍攝包含中文或日文文字的影像以進行 OCR（光學字元辨識）處理而請求存取您裝置的相機與相簿。影像將即時處理，不會儲存於我們的伺服器上。</p>
+
+    <h2>4. 第三方服務</h2>
+    <p>本應用程式使用以下第三方服務。影像及擷取的文字可能透過 Gemini API 傳輸至 Google 伺服器進行處理。</p>
+    <table>
+      <thead>
+        <tr><th>服務</th><th>用途</th><th>隱私權政策</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Google Firebase AI Logic (Gemini API)</td><td>OCR 與文字擷取</td><td><a href="https://policies.google.com/privacy" target="_blank">Google 隱私權政策</a></td></tr>
+        <tr><td>Google ML Kit Translate</td><td>裝置端文字翻譯</td><td><a href="https://policies.google.com/privacy" target="_blank">Google 隱私權政策</a></td></tr>
+        <tr><td>Firebase App Check</td><td>防止 API 濫用</td><td><a href="https://policies.google.com/privacy" target="_blank">Google 隱私權政策</a></td></tr>
+        <tr><td>Firebase Remote Config</td><td>應用程式設定管理</td><td><a href="https://policies.google.com/privacy" target="_blank">Google 隱私權政策</a></td></tr>
+      </tbody>
+    </table>
+
+    <h2>5. 資料保留</h2>
+    <p>本應用程式不保留任何使用者資料。所有處理均即時完成，結果僅在目前工作階段中顯示。</p>
+
+    <h2>6. 兒童隱私</h2>
+    <p>本應用程式適合所有年齡層使用。我們不會有意收集 14 歲以下兒童的個人資訊。</p>
+
+    <h2>7. 政策變更</h2>
+    <p>我們可能會不時更新本隱私權政策。任何變更將透過更新本頁頂端的生效日期予以反映。</p>
+
+    <h2>8. 聯絡方式</h2>
+    <p>如對本隱私權政策有任何疑問，請透過以下電子郵件與我們聯絡：<strong>qingdu.studio@gmail.com</strong></p>
+  </div>
+
+  <!-- Japanese -->
+  <div class="lang-section" id="section-jp">
+    <p style="color:#888; font-size:0.875rem; margin-bottom:2rem;">発効日：2026年6月30日</p>
+
+    <h2>1. 概要</h2>
+    <p>本プライバシーポリシーは、中国語の漢字リーダー Qingdu（청독）および日本語リーダー Seidoku（以下総称して「本アプリ」）に適用され、Qingdu Studio が開発しています。本アプリはカメラで文字を認識し、発音と翻訳で読む手助けをします。本ポリシーは、本アプリ利用時の情報の取り扱いについて説明します。</p>
+
+    <h2>2. 収集しない情報</h2>
+    <ul>
+      <li>アカウント作成やログインは不要です</li>
+      <li>お名前、メールアドレスなどの個人を識別する情報は収集しません</li>
+      <li>アプリ内で撮影した画像や写真は保存しません</li>
+      <li>広告目的で第三者にデータを販売・共有することはありません</li>
+    </ul>
+
+    <h2>3. カメラおよびギャラリーへのアクセス</h2>
+    <p>本アプリは、中国語または日本語の文字を含む画像を撮影し OCR（光学文字認識）処理を行う目的のみで、デバイスのカメラおよびギャラリーへのアクセスを要求します。画像はリアルタイムで処理され、当社のサーバーには保存されません。</p>
+
+    <h2>4. 第三者サービス</h2>
+    <p>本アプリは以下の第三者サービスを使用します。画像および抽出されたテキストは、Gemini API を通じて Google のサーバーに送信され処理される場合があります。</p>
+    <table>
+      <thead>
+        <tr><th>サービス</th><th>目的</th><th>プライバシーポリシー</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Google Firebase AI Logic (Gemini API)</td><td>OCR・テキスト抽出</td><td><a href="https://policies.google.com/privacy" target="_blank">Google プライバシーポリシー</a></td></tr>
+        <tr><td>Google ML Kit Translate</td><td>オンデバイス翻訳</td><td><a href="https://policies.google.com/privacy" target="_blank">Google プライバシーポリシー</a></td></tr>
+        <tr><td>Firebase App Check</td><td>API の不正利用防止</td><td><a href="https://policies.google.com/privacy" target="_blank">Google プライバシーポリシー</a></td></tr>
+        <tr><td>Firebase Remote Config</td><td>アプリ設定の管理</td><td><a href="https://policies.google.com/privacy" target="_blank">Google プライバシーポリシー</a></td></tr>
+      </tbody>
+    </table>
+
+    <h2>5. データの保持</h2>
+    <p>本アプリはユーザーデータを一切保持しません。すべての処理はリアルタイムで行われ、結果は現在のセッション内でのみ表示されます。</p>
+
+    <h2>6. 子どものプライバシー</h2>
+    <p>本アプリは全年齢を対象としています。13歳未満の子どもの個人情報を意図的に収集することはありません。</p>
+
+    <h2>7. ポリシーの変更</h2>
+    <p>本プライバシーポリシーは随時更新される場合があります。変更はページ上部の発効日を更新することで反映されます。</p>
+
+    <h2>8. お問い合わせ</h2>
+    <p>本プライバシーポリシーに関するご質問は、次のメールアドレスまでご連絡ください：<strong>qingdu.studio@gmail.com</strong></p>
   </div>
 
 </main>
 
 <footer>
-  &copy; 2026 Qingdu · 청독
+  &copy; 2026 Qingdu Studio · Qingdu · 청독 · Seidoku
 </footer>
 
 <script>
